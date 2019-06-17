@@ -1,0 +1,808 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+     color: grey;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.444;
+    overflow-wrap: break-word;    
+}
+.header-0{
+    padding:10px;    
+}
+
+.imGE2{
+    height: 20px;
+}
+.header-1{
+display: inline;
+text-decoration: none;
+}
+.header-3{
+    float: right;
+    font-size: 16px;     
+}
+
+#header-2 , #footertag  {
+    font-size: 24px;
+    text-decoration: none;  
+    color: grey;
+      
+}
+.p1b{
+    position: absolute;
+    left: 146px;
+    top: 299px;
+}
+.class2{
+    font-size: 45px;
+    padding-left: 45px;
+    padding-top: 90px;
+    color: black;
+    font-weight: 700;
+}
+.p2b {
+    font-size: 17px;
+    color: black;
+    padding-left: 22px;
+    padding-top: 13px;
+}
+.class3{    font-size: 57px;
+    font-weight: 700;
+    color: black;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.p3b{font-size: 19px;
+    color: black;
+    padding-left: 58px;
+}
+.p1b2{
+    position: absolute;
+    left: 164px;
+    top: 344px;
+    padding: 10px;
+    background: rgb(26, 115, 232);
+}
+.p1b1{
+    background: rgb(26, 115, 232);
+    padding: 10px;
+    position: absolute;
+    left: 99px;
+    top: 301px;
+}
+.button-1 , .p1b{
+    color:white;
+    padding: 15px 20px 15px;
+   background:rgb(26, 115, 232); 
+}
+.headertext  {
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 500;
+    color: grey;
+
+}
+hr{
+    display: none;
+}
+.newbtn{
+    display: none;
+    color:white;
+    padding: 5px 8px 5px;;
+   background:rgb(26, 115, 232); 
+}
+
+.header-text {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.container{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 40%;
+    position: relative;
+    width: 100%;
+    height: 0;
+    border: hidden;
+    background-color: #f8f9fa;
+}
+.carousel{
+    position:absolute;
+    width : 100%;
+    height: 100%;
+    background-color: #f8f9fa;
+}
+.class1{
+    font-size: 40px;
+    padding-left: 42px;
+    padding-top: 45px;
+    color: black;
+}
+.p1{
+    color: black;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 18px;
+}
+.carousel img{
+    width: 60%;
+    height: 81%;
+    float: right;
+    padding-top: 40px;
+    padding-right: 4px;
+}
+.secdsctio{
+    display: none;
+}
+ #i1, #i2 , #i3{
+     display: none;
+ } 
+.pre, .nxt{
+        width: 12%;
+        height: 100%;
+        position: absolute;
+        top:0;
+        z-index: 99;
+        cursor:pointer;
+    }
+    
+.pre{
+    left:0;
+}
+.nxt{
+right:0;
+}
+
+.nav{
+    width: 100%;
+    height:39px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+.dot{
+    top: -4px;
+    width: 12px;
+    height: 12px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(0,0,0,.9)
+}
+
+.carousel-container{
+    z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three{
+    z-index:9;
+}
+#i4, #i5 , #i6{
+    display: none;}
+
+#i1:checked ~ .nav #dot1,
+#i1:checked ~ .nav #dot2,
+#i1:checked ~ .nav #dot3{
+    background: #fff;
+}
+#i1:checked ~ #four,
+#i2:checked ~ #five,
+#i3:checked ~ #six{
+    z-index:9;
+}
+ 
+#i1:checked ~ .nav #dot4,
+#i1:checked ~ .nav #dot5,
+#i1:checked ~ .nav #dot6{
+    background: #fff;
+}
+n
+
+.image6{
+    width: 50% ;
+    float: right;
+}
+.short{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Google Sans",Roboto,Arial,Helvetica,sans-serif;
+    color: grey; 
+}
+.Experience{
+    font-size: 44px;
+    font-weight: 300;   
+}
+.ease{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.storeimage{
+    text-align: center;
+    height: 20px;
+}
+.play2{
+    height: 50px;
+    padding: 15px;
+}
+.middleimage{
+    padding-top: 50px;
+        width: 90%;
+}
+ .grid-container {
+    display: inline-grid;;
+    grid-template-columns: auto auto auto;
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 368px;
+  }
+ #grid-item1 {
+    width: 43%;
+  }
+#grid-item2{
+      width: 90%;
+      padding-top: 43px;
+  }
+
+  .Stay{
+      font-size: 40px;
+      color: black;
+  }
+  .p2{
+    font-size:20px;
+    color: black;
+  }
+.imGE{
+    height: 60px;
+    padding-top: 12px;
+    padding-left: 42px;
+
+}
+.gmaillogo{
+ padding-left: 45%;
+padding-right: 45%;
+padding-top: 10%;
+}
+.words1{
+    text-align: center;
+    font-size: 44px;
+    font-weight:500;
+    color: black;
+    padding-top: 3%;
+}
+
+
+.grid{
+
+     display:inline;
+}
+.h1{
+   display:inline-block 
+
+}
+.classec{
+    padding-top:366px;
+    padding-bottom: 18px;
+}
+.sectioned{
+    background-color: #f8f9fa;
+    position:absolute;
+    top:  1962px;
+    width : 100%;
+    height: 59%;
+   
+}
+.image6{
+    width: 50%;
+}
+.image7{
+    width:40%;
+    position: absolute;
+    left: 40px;
+    padding-top: 150px;
+}
+.sectionote{
+    position: absolute;
+     left: 700px;
+  padding-top: 86px;
+font-size: 35px;
+font-weight: 700;
+         color: black;
+    padding-top: 16px;
+    left: 740px;
+}
+.sectionotH{
+    position: absolute;
+    left: 686px;
+    padding-top: 214px;
+    color: black;
+    font-size: 20px;
+}
+.gridtype{display: flex;
+padding: 40px;
+height: 200px;
+width:90%}footer{
+     background-color:lightgrey;
+height: 60px;
+}
+.button-2{
+    text-decoration:none;
+    padding-bottom: 40px;
+   
+    }
+.header-text2{
+position: absolute;
+    left: 581px;
+    background:rgb(26, 115, 232); 
+    padding: 15px 20px 15px;
+    text-decoration:none;
+    font-weight:bold ;
+    color: #fff;
+    font-size: 16px;
+    
+}
+.lastbtn{
+    background:rgb(26, 115, 232); 
+    padding: 15px 20px 15px;
+    text-decoration:none;
+    font-weight:bold ;
+    color: #fff;
+    font-size: 16px;
+
+}
+.lastbtn{
+    display: none;
+}
+.takeact{
+    font-size: 40px;
+    padding: 20px;
+    color: black;
+    font-weight: 600;
+    padding-left: 135px;
+}
+.takeact2{
+    font-size:18px;
+    padding: 20px;
+    color: black;
+    padding-left: 118px;
+    font-weight:light;
+
+}
+.footertag {
+    text-decoration: none;
+    font-weight: 500;
+    color: grey; 
+    font-size: 16px;
+     padding-left: 25px;
+}
+ .footer{
+     width: 100%;
+ 
+    }    
+    @media only screen and (max-device-width:1024px) {
+        body{
+           width: 100%;
+           height:100%;
+        }
+        .class3 {
+            font-size: 30px;
+            padding-left: 60px;
+        }
+        .p3b{
+            font-size: 20px;
+            padding-left: 13px;
+        }
+        .p1b2{
+            position: absolute;
+            top:250px;
+            left: 70px
+        }
+        .nav{
+            bottom: 63%;
+        }
+        .class2{
+            padding-top: 50px;
+        
+        }
+        .p1b{
+            position: absolute;
+            left: 50px;
+        }
+        .Experience{
+            color: black;
+           font-size: 30px;
+        }
+        .ease{
+            color: black
+        }
+        .grid-container{
+            height: 351px;
+            display: inline-block;
+            width: 100%;
+        }
+        
+            .sectionotH{
+                left: 469px;
+            }
+            .sectionote{
+                left: 519px;
+            }
+            .imGE{
+                padding-left: 2px;
+            }
+            #griditem1{
+                display: none;
+            }
+            .grid-item1{
+                text-align: center;
+                padding-top: 29px;
+
+              }
+        .sectioned{
+            background-color: #f8f9fa;
+            position: absolute;
+            top: 1748px;
+            width: 100%;
+            height: 30%;
+        }
+        .classec{
+            padding-top:519px;
+        }
+        .words1{
+            font-size: 40px;
+            padding-bottom: 20px;
+        }
+        .header-text2{
+            position: absolute;
+            left: 421px;}
+        .image6{
+            display: none;
+        }   
+        .sect{
+            text-align: center;
+            padding-left: 100px;
+        }
+        .footer{
+            height: 130px;
+        }
+}
+@media (max-width:768px){
+  
+   .header-1 {
+    display: grid;
+   }
+   hr{
+       display:block;
+   }
+   .header-3{
+    padding-top: 12px;
+   }
+  #headertext1{
+    padding-right: 558px;
+  }
+  .firstsctio{
+    padding-top: 20px;
+  }
+ 
+     #griditem1{
+        display: none;
+        
+    }
+    .button-1{display: none ;       
+    }
+    .newbtn{
+        display: inline;
+      position: absolute;
+      left: 670px;
+      top: 11px;
+      text-decoration: none;
+    }
+    .firstsctio{
+        display: none;
+    }
+    .secdsctio{
+        display: block;
+        padding-top: 20px;
+    }
+.container{
+    height:384px;
+}
+.carousel img{
+    position: absolute;
+    left: 142px;
+    top: 176px;
+    height: 50%;
+}
+.nav{
+    bottom: 1%;
+}
+br{
+    display: none;
+}
+.class3{
+    font-size: 50px;
+    padding-top: 36px;
+    padding-left: 156px;
+}
+.p3b{
+    padding-left: 97px;
+}
+ .p1b2{
+    top: 581px;
+    left: 287px;
+}
+ .ease{
+    font-size: 15px;
+ }
+ #play2{
+     display: none;
+ }
+ .middleimage{
+    height: 360px;
+ }
+ .divsect{
+    padding-right: 247px;
+ }
+ .sectioned{
+    top:1970px;
+ }
+.grid-container{
+    height: 274px;
+}
+.Stay{
+    font-size: 21px;
+    padding-top: 37px;
+}
+.p2{
+    font-size: 15px;
+}
+#grid-item1 {
+    width: 77%;
+}
+.sectionote {
+    font-size: 28px;
+    padding-top: 72px;
+    position: absolute;
+    left: 377px;
+
+}
+.sectionotH{
+    position: absolute;
+    left: 383px;
+    font-size: 14px;
+    padding-top: 145px;
+}
+.image7{
+    width: 46%;
+    position: absolute;
+    left: 29px;
+    top: -30%;
+}
+.classec{
+    padding-top: 299px;
+}
+.header-text2 {
+    position: absolute;
+    left: 291px;
+    display: none;
+}
+.footer {
+    height: 51px;
+}
+.lastbtn{
+    display: block;
+        position: absolute;
+        left: 330px;
+
+}
+}
+@media (max-width:414px){
+    .newbtn{
+        left: 319px;
+    }
+    .sectionotH {
+        left: 52px;
+    }
+    .sectionote {
+        left: 231px;
+    }
+    #headertext1 {
+        padding-right: 212px;
+    }
+    .p1b2{
+        display: none
+        
+    }
+    .class3 {
+        font-size: 29px;
+        padding-top: 36px;
+        padding-left: 102px;
+    }
+    .carousel img {
+        position: absolute;
+        left: 94px;
+        top: 125px;
+        height: 50%;
+    }
+    .container {
+        height: 457px;
+    }
+    #button4 {
+        left: 160px;
+        top: 539px;
+    }
+  
+    .dot {
+        top: -67px;
+        left: 9px;}
+    .nav {
+        bottom: 9%;
+        height: 0px;
+    }
+    .Experience {
+        color: black;
+        font-size: 38px;
+    }
+    .ease {
+        font-size: 13px;
+    }
+    #play1{
+        display: none;
+    }
+    .takeact{
+        font-size: 20px;
+        padding-left: 0;
+    }
+    .sect{
+        display: none;
+    }
+    .sectioned {
+        top: 1644px;
+        height: 52%;
+
+    }
+    #button4{
+        display: block;
+    }
+    .sectionote {
+        font-size: 17px;
+        left: 224px;
+    }
+    .image7 {
+        width: 86%;
+        position: absolute;
+        left: 33px;
+        top: 11px;
+    }
+
+    .sectionote {
+            font-size: 32px;
+            left: 27px;
+        }
+     .sectionotH {
+            left: 30px;
+        }
+     .classec {
+            padding-top: 380px;
+        }
+    .imGE {
+            height: 32px;
+        }
+    .words1 {
+                font-size: 20px;
+            }
+     .lastbtn{
+        left: 151px;
+     }       
+     .footer {
+        height: 122px;
+    }
+}
+@media (max-width:360px)
+{ .newbtn{
+        position: absolute;
+        left: 248px;
+        padding: 7px 20px 7px;
+    
+}
+.header-3{
+    display: contents;
+        padding-top: 4px;
+    }
+    #headertext{
+        float: right;
+        padding: 0px;
+    }
+    #headertext1 {
+        padding-right: 204px;
+        padding-left: 0px;
+}
+.secdsctio {
+    display: block;
+    padding-top: 0px;
+}
+.class3{
+    font-size: 34px;
+    padding-top: 36px;
+    padding-left: 40px;
+    font-weight: 600;
+}
+.carousel img {
+    left: 69px;
+    top: 158px;
+}
+.p3b {
+    padding-left: 47px;
+}
+.nav {
+        bottom: 3%;
+        left: -5px;
+    }
+    #button4 {
+        position: absolute;
+        left: 116px;
+        
+    }
+}
+#button4 {
+    left: 112px;
+    top: 541px;
+    padding: 7px 27px 8px;
+}
+.Experience {
+    font-size: 36px;
+    font-weight: 500;
+}
+.ease{line-height: 1.71429;
+    font-size: 14px;
+    letter-spacing: .25px;
+}
+#play1{
+    display: inline;
+}
+.play2 {
+    height: 43px;
+    padding: 5px;
+}
+.Stay {
+    font-size: 30px;
+    padding-top: 8px;
+}
+br{
+    display: inline;
+}
+.sectionote{
+    padding-top: 16px;
+    left: 70px;
+}
+.sectionotH{
+    padding-top: 115px;
+}
+.image7{
+    padding-top: 194px;
+}
+.imGE {
+    height: 38px;
+}
+.words1 {
+    font-size: 30px;
+}
+
+.lastbtn{
+    padding: 7px 29px 6px;
+    left: 126px;
+}
